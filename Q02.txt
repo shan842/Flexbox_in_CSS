@@ -1,0 +1,20 @@
+The Flexbox layout model provides several key properties that control how the items inside a flex container are aligned, distributed, and arranged. Below is an explanation of the role of each of the properties you've mentioned:
+
+
+1. justify-content:
+Role: This property aligns flex items along the main axis (the axis defined by flex-direction). It controls the spacing and alignment of items inside the flex container along this axis.
+
+2. align-items:
+Role: This property aligns flex items along the cross axis (perpendicular to the main axis, which can be vertical or horizontal depending on flex-direction). It controls the alignment of items inside the flex container along this axis.
+
+3. gap:
+Role: The gap property (previously called grid-gap in CSS Grid) is used to specify the space between flex items in both the row and column directions. This property makes it easier to manage spacing without needing to rely on margin properties.
+
+4. flex-direction:
+Role: This property defines the direction of the main axis (the axis along which flex items are arranged). It determines the direction in which the flex container’s items will be laid out.
+
+5. flex-wrap:
+Role: This property defines whether flex items should wrap onto the next line (if they exceed the container's width or height). By default, flex items will try to fit in a single line, but flex-wrap can be used to allow items to wrap to the next line.
+
+
+

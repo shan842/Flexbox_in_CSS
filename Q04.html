@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Container for the pricing section */
+        .pricing-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 50px 20px;
+            background-color: #fff;
+        }
+
+        .pricing-plan {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            text-align: center;
+            padding: 30px;
+            width: 280px;
+            transition: transform 0.3s ease-in-out;
+        }
+        
+
+        .pricing-plan:hover {
+            transform: translateY(-10px);
+        }
+
+        .pricing-plan h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .pricing-plan p {
+            font-size: 16px;
+            color: #777;
+            margin: 10px 0;
+        }
+
+        .price {
+            font-size: 36px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 16px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #2980b9;
+        }
+
+        /* Different color for premium plan */
+        .premium {
+            border: 2px solid #f39c12;
+        }
+
+    </style>
+</head>
+<body>
+
+    <section class="pricing-section">
+        <div class="pricing-plan">
+            <h2>Free Plan</h2>
+            <p>For Personal</p>
+            <div class="price">$0</div>
+            <p>1 users</p>
+            <p>4 web mails</p>
+            <p>Responsive Website</p>
+            <p>Free SSL</p>
+            <a href="#" class="button">Choose Plan</a>
+        </div>
+
+        <div class="pricing-plan premium">
+            <h2>Basic Plan</h2>
+            <p>For Small Business </p>
+            <div class="price">$29</div>
+            <p>Responsive Website</p>
+            <p>Free SSL</p>
+            <a href="#" class="button">Choose Plan</a>
+        </div>
+
+        <div class="pricing-plan">
+            <h2>Pro Plan</h2>
+            <p>For Enterprise</p>
+            <div class="price">$49</div>
+            <p>Unlimited Users</p>
+            <p>Responsive Website</p>
+            <p>Free SSL + SEO </p>
+            <a href="#" class="button">Choose Plan</a>
+        </div>
+    </section>
+
+</body>
+</html>

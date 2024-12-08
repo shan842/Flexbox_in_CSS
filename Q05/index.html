@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRCTC Ticket Booking - Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="https://www.irctc.co.in/nget/assets/images/irctc_logo.png" alt="IRCTC Logo">
+        </div>
+        <h1>IRCTC Ticket Booking</h1>
+    </header>
+
+    <!-- Booking Form -->
+    <div class="container">
+        <form class="booking-form">
+            <h2>Plan Your Journey</h2>
+
+            <!-- Source and Destination -->
+            <div class="form-group">
+                <label for="source">From</label>
+                <input type="text" id="source" name="source" placeholder="Enter Source Station" required>
+            </div>
+            <div class="form-group">
+                <label for="destination">To</label>
+                <input type="text" id="destination" name="destination" placeholder="Enter Destination Station" required>
+            </div>
+
+            <!-- Travel Date -->
+            <div class="form-group">
+                <label for="date">Journey Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+
+            <!-- Class of Travel -->
+            <div class="form-group">
+                <label for="class">Class</label>
+                <select id="class" name="class" required>
+                    <option value="sleeper">Sleeper</option>
+                    <option value="second-class">Second Class</option>
+                    <option value="third-ac">Third AC</option>
+                    <option value="second-ac">Second AC</option>
+                    <option value="first-ac">First AC</option>
+                </select>
+            </div>
+
+            <!-- Passenger Type -->
+            <div class="form-group">
+                <label for="passenger-type">Passenger Type</label>
+                <select id="passenger-type" name="passenger-type" required>
+                    <option value="adult">Adult</option>
+                    <option value="child">Child</option>
+                    <option value="senior">Senior Citizen</option>
+                </select>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="form-group">
+                <button type="submit" class="btn">Search Trains</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 IRCTC Clone. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
